@@ -17,30 +17,7 @@
     .main-nav ul li {
         margin-bottom: 10px;
     }
-    .main-nav ul {
-        list-style: none;
-        display: flex;
-    }
-    
-    .main-nav ul li {
-        margin-right: 30px;
-    }
-    
-    .main-nav ul li:last-child {
-        margin-right: 0; /* Remove margem do último item */
-    }
-    
-    .main-nav ul li a {
-        text-decoration: none;
-        color: #fff;
-        font-weight: bold;
-        font-size: 18px;
-        transition: color 0.3s ease;
-    }
-    
-    .main-nav ul li a:hover {
-        color: #ffcc00;
-    }
+
 
 
 /* HEADER FIM */
