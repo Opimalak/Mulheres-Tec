@@ -15,23 +15,35 @@
             line-height: 1.6;
         }
 
-        h1 {
-            color: #4a90e2;
+        header {
+            background-color: #4a90e2;
+            color: white;
+            padding: 20px;
             text-align: center;
-            margin-top: 20px;
         }
 
-        img {
-            display: block;
-            margin: 0 auto;
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .container img {
             width: 300px;
+            margin-right: 20px;
             border-radius: 10px;
         }
 
         .texto {
-            margin: 20px auto;
-            padding: 0 20px;
-            max-width: 800px;
+            flex: 1;
+            max-width: 600px;
             text-align: justify;
         }
 
@@ -40,9 +52,8 @@
             color: white;
             text-align: center;
             padding: 20px;
-            position: fixed;
+            position: relative;
             width: 100%;
-            bottom: 0;
         }
 
         .footer-content {
@@ -62,17 +73,33 @@
         i {
             font-style: italic;
         }
+
+        /* Estilo responsivo para telas menores */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .container img {
+                margin: 0 auto 20px auto;
+            }
+        }
     </style>
 </head>
 <body>
-    <h1>Grace Murray Hopper</h1>
-    <img src="img/grace.jpg" alt="Grace Murray Hopper">
-    
-    <p class="texto">Grace Murray Hopper (Nova Iorque, 1906 - 1992) foi Ph.D. em Matemática, analista de sistemas da Marinha dos Estados Unidos nas décadas de 1940 e 1950 e almirante.</p>
+    <header>
+        <h1>Grace Murray Hopper</h1>
+    </header>
 
-    <p class="texto">Foi ela quem criou a linguagem de programação Flow-Matic (hoje extinta), que serviu como base para a criação da linguagem COBOL (Common Business Oriented Language) devido à necessidade de criar uma linguagem orientada para negócios. Pois é! Essa linguagem que domina muitas áreas dos grandes bancos tem uma mulher com papel de protagonista.</p>
-
-    <p class="texto">No começo dos anos 1950, ela desenvolveu um compilador operacional, quando acreditava-se que computadores só podiam realizar operações aritméticas. Depois, como diretora de programação automática, seu departamento divulgou algumas das primeiras linguagens de programação baseadas em compilador. Isso mesmo: considerada uma das mães dos compiladores.</p>
+    <div class="container">
+        <img src="img/grace.jpg" alt="Grace Murray Hopper">
+        <div class="texto">
+            <p>Grace Murray Hopper (Nova Iorque, 1906 - 1992) foi Ph.D. em Matemática, analista de sistemas da Marinha dos Estados Unidos nas décadas de 1940 e 1950 e almirante.</p>
+            <p>Foi ela quem criou a linguagem de programação Flow-Matic (hoje extinta), que serviu como base para a criação da linguagem COBOL (Common Business Oriented Language) devido à necessidade de criar uma linguagem orientada para negócios. Pois é! Essa linguagem que domina muitas áreas dos grandes bancos tem uma mulher com papel de protagonista.</p>
+            <p>No começo dos anos 1950, ela desenvolveu um compilador operacional, quando acreditava-se que computadores só podiam realizar operações aritméticas. Depois, como diretora de programação automática, seu departamento divulgou algumas das primeiras linguagens de programação baseadas em compilador. Isso mesmo: considerada uma das mães dos compiladores.</p>
+        </div>
+    </div>
 
     <footer>
         <section class="footer-content">
