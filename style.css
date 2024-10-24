@@ -48,7 +48,7 @@ background-size: cover;
 
 .quadrado {
     border: solid red;
-    background-color: rgb(124, 124, 124);
+    background-color: #fffedf;
     width: 300px;
     height: 600px;
     flex-wrap: wrap;
