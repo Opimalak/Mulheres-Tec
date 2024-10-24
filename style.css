@@ -46,7 +46,20 @@ body {}
     padding: 10px;
 }
 
-.quadrado {
+.quadrado {    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Ada Augusta King - Ada Lovelace </title>
+</head>
+
+<body>
+…        <footer>
+     
+    </footer>
+
+
+</html>
     border: 3px solid #c3d6d6;
     border-radius: 30px;
     background-color: #8fb2e8;
@@ -95,3 +108,53 @@ footer {
 }
 
 /* FOOTER GERAL FIM */
+
+/* CSS ADA*/
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.cabecalho-cabecalho {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#titulo {
+    margin: 0;
+}
+
+.imgcentro {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.biografia p {
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* CSS ADA FIM*/
