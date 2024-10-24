@@ -54,7 +54,6 @@ header {
     height: 600px;
     flex-wrap: wrap;
     text-align: center;
-    padding-top: 50px;
 }
 
 .quadradoF {
@@ -74,6 +73,7 @@ header {
 
 .texto {
     font-size: 20px;
+    padding-top: 50px;
 }
 
 /* MAIN FIM */
