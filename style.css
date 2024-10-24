@@ -1,7 +1,20 @@
+/* GERAL */
+
 *{
     padding: 0;
     margin: 0;
 }
+
+/* GERAL FIM */
+
+/* HEADER */
+
+
+
+/* HEADER FIM */
+
+/* MAIN */
+
 .flex {
     background-color: blueviolet;
     display: flex;
@@ -34,3 +47,11 @@ height: 500px;
 .texto{
     font-size: 20px;
 }
+
+/* MAIN FIM */
+
+/* FOOTER */
+
+
+
+/* FOOTER FIM */
