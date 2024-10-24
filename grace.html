@@ -25,6 +25,7 @@
 
         h1 {
             margin: 0;
+            font-size: 2.5em;
         }
 
         .container {
@@ -32,19 +33,20 @@
             flex-wrap: wrap;
             justify-content: center;
             max-width: 1200px;
-            margin: 30px auto;
+            margin: 40px auto;
             padding: 0 20px;
         }
 
         .container img {
-            width: 300px;
-            margin-right: 40px; /* Aumenta a distância da imagem para o texto */
+            width: 400px; /* Aumenta o tamanho da imagem */
+            margin-right: 60px; /* Aumenta a distância da imagem para o texto */
             border-radius: 10px;
         }
 
         .texto {
             flex: 1;
-            max-width: 600px;
+            max-width: 700px;
+            font-size: 1.2em; /* Aumenta o tamanho do texto */
             text-align: justify;
             color: #444;
         }
@@ -84,7 +86,12 @@
             }
 
             .container img {
+                width: 80%; /* Imagem ajustada para telas menores */
                 margin: 0 auto 20px auto;
+            }
+
+            .texto {
+                font-size: 1.1em; /* Mantém o texto grande mesmo em telas menores */
             }
         }
     </style>
