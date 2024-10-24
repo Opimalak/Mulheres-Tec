@@ -8,15 +8,7 @@
 /* GERAL FIM */
 
 /* HEADER */
-@media (max-width: 780px) {
-    .main-nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .main-nav ul li {
-        margin-bottom: 10px;
-    }
 
 
 
