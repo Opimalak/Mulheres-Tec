@@ -36,6 +36,39 @@ body {}
 
 /* HEADER INDEX FIM */
 
+/* HEADER GERAL */
+
+.cabecalho {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+}
+
+#titulo {
+    margin: 0;
+}
+
+.botao-voltar {
+    display: inline-block;
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    transition: background-color 0.3s;
+}
+
+.botao-voltar:hover {
+    background-color: #e64a19;
+}
+
+
+/* HEADER GERAL FIM */
 /* MAIN INDEX*/
 
 .flex-index {
@@ -100,38 +133,3 @@ footer {
 
 /* CSS ADA */
 
-
-<header class="cabecalho">
-<h1 id="titulo">Ada Augusta King</h1>
-<a href="index.html" class="botao-voltar">Voltar à Página Inicial</a>
-</header>
-
-
-.cabecalho {
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-    position: relative;
-}
-
-#titulo {
-    margin: 0;
-}
-
-.botao-voltar {
-    display: inline-block;
-    background-color: #ff5722;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    transition: background-color 0.3s;
-}
-
-.botao-voltar:hover {
-    background-color: #e64a19;
-}
