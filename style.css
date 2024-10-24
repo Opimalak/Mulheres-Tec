@@ -36,9 +36,9 @@ body {}
 
 /* HEADER FIM */
 
-/* MAIN */
+/* MAIN INDEX*/
 
-.flex {
+.flex-index {
     background-color: #8fb2e8;
     display: flex;
     justify-content: space-around;
@@ -63,20 +63,20 @@ body {}
     opacity: 0.55;
 }
 
-.imagem {
+.imagem-index {
     width: 100%;
     height: 500px;
     border-radius: 28px;
 }
 
-.texto {
+.texto-index {
     font-size: 30px;
     padding-top: 25px;
 }
 
-/* MAIN FIM */
+/* MAIN INDEX FIM */
 
-/* FOOTER */
+/* FOOTER GERAL*/
 
 footer {
     background-color: #000;
@@ -94,4 +94,4 @@ footer {
     font-size: 2rem;
 }
 
-/* FOOTER FIM */
+/* FOOTER GERAL FIM */
