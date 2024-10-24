@@ -8,11 +8,17 @@
 /* GERAL FIM */
 
 /* HEADER */
-@media (max-width: 780px) {}
-    .main-nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
+.site-header {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
 
 
 /* HEADER FIM */
