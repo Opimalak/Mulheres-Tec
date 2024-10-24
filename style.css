@@ -46,20 +46,7 @@ body {}
     padding: 10px;
 }
 
-.quadrado {    <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title> Ada Augusta King - Ada Lovelace </title>
-</head>
-
-<body>
-      <footer>
-     
-    </footer>
-
-
-</html>
+.quadrado {
     border: 3px solid #c3d6d6;
     border-radius: 30px;
     background-color: #8fb2e8;
