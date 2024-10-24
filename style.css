@@ -37,7 +37,7 @@ header {
 /* MAIN */
 
 .flex {
-    background-color: blueviolet;
+    background-color: rgb(39, 168, 190);
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
