@@ -46,7 +46,20 @@ body {}
     padding: 10px;
 }
 
-.quadrado {
+.quadrado {    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Ada Augusta King - Ada Lovelace </title>
+</head>
+
+<body>
+      <footer>
+     
+    </footer>
+
+
+</html>
     border: 3px solid #c3d6d6;
     border-radius: 30px;
     background-color: #8fb2e8;
@@ -78,5 +91,24 @@ body {}
 
 /* FOOTER GERAL*/
 
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    list-style-type: none;
+}
 
-/* CSS ADA FIM*/
+.footer-content ul {
+    list-style: none;
+}
+
+.footer-content h2 {
+    font-size: 2rem;
+}
+
+/* FOOTER GERAL FIM */
+
+/* CSS ADA*/
+
+/* CSS ADA */
