@@ -54,10 +54,7 @@ body {}
     height: 600px;
     flex-wrap: wrap;
     text-align: center;
-}
-
-.quadradoF {
-    background-color: black;
+    color: white;
 }
 
 .quadrado:hover {
