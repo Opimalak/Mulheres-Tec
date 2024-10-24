@@ -18,7 +18,9 @@ body {}
 
 /* HEADER */
 header {
-    color: #fff;
+background-image: url(background.avif);
+background-repeat: no-repeat;
+background-size: contain;
     width: 100%;
     height: 200px;
     background-color: #77b1a9;
