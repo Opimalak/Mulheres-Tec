@@ -59,6 +59,9 @@ footer {
     text-align: center;
     list-style-type: none;
 }
+.footer-content ul{
+    list-style-type: none;
+}
 .footer-content h2 {
     font-size: 2rem;
 }
