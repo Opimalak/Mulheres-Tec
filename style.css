@@ -47,7 +47,7 @@ header {
 }
 
 .quadrado {
-    border: solid red;
+    border: solid #999999;
     background-color: #fffedf;
     width: 300px;
     height: 600px;
