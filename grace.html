@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,12 +16,35 @@
             color: #333;
         }
 
-        header {
-            background-color: #6a1b9a;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
+     
+.cabecalho {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+}
+
+#titulo {
+    margin: 0;
+}
+
+.botao-voltar {
+    display: inline-block;
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    transition: background-color 0.3s;
+}
+
+.botao-voltar:hover {
+    background-color: #e64a19;
+}
 
         h1 {
             margin: 0;
@@ -37,15 +61,15 @@
         }
 
         .container img {
-            width: 400px; 
-            margin-right: 60px; 
+            width: 400px;
+            margin-right: 60px;
             border-radius: 10px;
         }
 
         .texto {
             flex: 1;
             max-width: 700px;
-            font-size: 1.2em; 
+            font-size: 1.2em;
             text-align: justify;
             color: #444;
         }
@@ -77,7 +101,7 @@
             font-style: italic;
         }
 
- 
+
         @media (max-width: 768px) {
             .container {
                 flex-direction: column;
@@ -85,30 +109,40 @@
             }
 
             .container img {
-                width: 80%; 
+                width: 80%;
                 margin: 0 auto 20px auto;
             }
 
             .texto {
-                font-size: 1.1em; 
+                font-size: 1.1em;
             }
         }
     </style>
 </head>
+
 <body>
-    <header>
-        <h1>Grace Murray Hopper</h1>
+
+    <header class="cabecalho">
+        <h1 id="titulo">Ada Augusta King</h1>
+        <a href="index.html" class="botao-voltar">Voltar à Página Inicial</a>
     </header>
-<main>
-    <div class="container">
-        <img src="img/grace.jpg" alt="Grace Murray Hopper">
-        <div class="texto">
-            <p>Grace Murray Hopper (Nova Iorque, 1906 - 1992) foi Ph.D. em Matemática, analista de sistemas da Marinha dos Estados Unidos nas décadas de 1940 e 1950 e almirante.</p>
-            <p>Foi ela quem criou a linguagem de programação Flow-Matic (hoje extinta), que serviu como base para a criação da linguagem COBOL (Common Business Oriented Language) devido à necessidade de criar uma linguagem orientada para negócios. Pois é! Essa linguagem que domina muitas áreas dos grandes bancos tem uma mulher com papel de protagonista.</p>
-            <p>No começo dos anos 1950, ela desenvolveu um compilador operacional, quando acreditava-se que computadores só podiam realizar operações aritméticas. Depois, como diretora de programação automática, seu departamento divulgou algumas das primeiras linguagens de programação baseadas em compilador. Isso mesmo: considerada uma das mães dos compiladores.</p>
+    <main>
+        <div class="container">
+            <img src="img/grace.jpg" alt="Grace Murray Hopper">
+            <div class="texto">
+                <p>Grace Murray Hopper (Nova Iorque, 1906 - 1992) foi Ph.D. em Matemática, analista de sistemas da
+                    Marinha dos Estados Unidos nas décadas de 1940 e 1950 e almirante.</p>
+                <p>Foi ela quem criou a linguagem de programação Flow-Matic (hoje extinta), que serviu como base para a
+                    criação da linguagem COBOL (Common Business Oriented Language) devido à necessidade de criar uma
+                    linguagem orientada para negócios. Pois é! Essa linguagem que domina muitas áreas dos grandes bancos
+                    tem uma mulher com papel de protagonista.</p>
+                <p>No começo dos anos 1950, ela desenvolveu um compilador operacional, quando acreditava-se que
+                    computadores só podiam realizar operações aritméticas. Depois, como diretora de programação
+                    automática, seu departamento divulgou algumas das primeiras linguagens de programação baseadas em
+                    compilador. Isso mesmo: considerada uma das mães dos compiladores.</p>
+            </div>
         </div>
-    </div>
-</main>
+    </main>
     <footer>
         <section class="footer-content">
             <h2>Mulheres da <i>Tecnologia</i></h2>
@@ -120,4 +154,5 @@
         </section>
     </footer>
 </body>
+
 </html>
