@@ -4,6 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Shadows+Into+Light&display=swap');
 /* fim imports */
 
+
+
 /* GERAL */
 
 * {
@@ -12,6 +14,7 @@
 }
 
 /* GERAL FIM */
+
 
 
 /* HEADER INDEX*/
@@ -36,9 +39,8 @@
 
 
 
-
-
 /* HEADER GERAL */
+
 h1 {
     margin: 0;
     font-size: 2.5em;
@@ -114,10 +116,9 @@ h1 {
 
 /* MAIN INDEX FIM */
 
+
+
 /* MAIN GERAL */
-
-
-
 
 .container {
     display: flex;
@@ -158,16 +159,8 @@ h1 {
         font-size: 1.1em;
     }
 }
+
 /* MAIN GERAL FIM */
-
-
-
-
-
-
-
-
-
 
 
 
@@ -197,6 +190,7 @@ footer {
 footer ul li {
     margin: 5px 0;
 }
+
 /* FOOTER GERAL FIM */
 
 
