@@ -14,24 +14,6 @@
 /* GERAL FIM */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* HEADER INDEX*/
 
 .container__header {
@@ -84,10 +66,6 @@
     padding: 10px 0;
     text-align: center;
     position: relative;
-}
-
-#titulo {
-    margin: 0;
 }
 
 .botao-voltar {
