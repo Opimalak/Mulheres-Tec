@@ -172,6 +172,7 @@ footer {
     padding: 20px;
     text-align: center;
     list-style-type: none;
+    bottom: 0;
 }
 
 .footer-content {
