@@ -114,11 +114,51 @@ h1 {
 
 /* MAIN INDEX FIM */
 
+/* MAIN GERAL */
 
 
 
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
 
+.container img {
+    width: 400px;
+    margin-right: 60px;
+    border-radius: 10px;
+}
+
+.texto {
+    flex: 1;
+    max-width: 700px;
+    font-size: 1.2em;
+    text-align: justify;
+    color: #444;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container img {
+        width: 80%;
+        margin: 0 auto 20px auto;
+    }
+
+    .texto {
+        font-size: 1.1em;
+    }
+}
+/* MAIN GERAL FIM */
 
 
 
@@ -178,48 +218,4 @@ footer ul li {
 
 
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 1200px;
-    margin: 40px auto;
-    padding: 0 20px;
-}
 
-.container img {
-    width: 400px;
-    margin-right: 60px;
-    border-radius: 10px;
-}
-
-.texto {
-    flex: 1;
-    max-width: 700px;
-    font-size: 1.2em;
-    text-align: justify;
-    color: #444;
-}
-
-
-
-
-
-
-
-
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .container img {
-        width: 80%;
-        margin: 0 auto 20px auto;
-    }
-
-    .texto {
-        font-size: 1.1em;
-    }
-}
