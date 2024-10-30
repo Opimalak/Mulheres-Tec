@@ -179,15 +179,17 @@ footer {
 .footer-content {
     max-width: 800px;
     margin: 0 auto;
+    padding-top: 5%;
 }
 
 
 .footer-content ul {
     list-style: none;
+    font-size: 1.5rem;
 }
 
 .footer-content h2 {
-    font-size: 2rem;
+    font-size: 3.5rem;
 }
 footer ul li {
     margin: 5px 0;
