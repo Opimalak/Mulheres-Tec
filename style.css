@@ -255,14 +255,7 @@ h1 {
     color: #444;
 }
 
-footer {
-    background-color: #6a1b9a;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    position: relative;
-    width: 100%;
-}
+
 
 .footer-content {
     max-width: 800px;
