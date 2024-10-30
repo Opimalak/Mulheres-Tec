@@ -70,7 +70,7 @@
 
 .botao-voltar {
     display: inline-block;
-    background-color: #ff5722;
+    background-color: #4269a5;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
@@ -82,7 +82,7 @@
 }
 
 .botao-voltar:hover {
-    background-color: #e64a19;
+    background-color: #4269a5;
 }
 
 
