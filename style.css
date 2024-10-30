@@ -138,7 +138,7 @@ h1 {
 .texto {
     flex: 1;
     max-width: 700px;
-    font-size: 1.2em;
+    font-size: 1.8rem;
     text-align: justify;
     color: #444;
 }
