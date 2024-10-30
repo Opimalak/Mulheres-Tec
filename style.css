@@ -11,8 +11,6 @@
     margin: 0;
 }
 
-body {}
-
 /* GERAL FIM */
 
 
@@ -129,8 +127,6 @@ footer {
 
 /* FOOTER GERAL FIM */
 
-/* CSS MULHERES*/
-  
 .cabecalho {
     background: #333;
     color: #fff;
@@ -231,5 +227,3 @@ footer {
                 font-size: 1.1em;
             }
         }
-/* CSS MULHERES FIM */
-
