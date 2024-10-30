@@ -38,28 +38,11 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* HEADER GERAL */
-
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
 .cabecalho {
     background: #333;
     color: #fff;
@@ -87,25 +70,6 @@
 
 
 /* HEADER GERAL FIM */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -212,10 +176,7 @@ footer ul li {
 
 
 
-h1 {
-    margin: 0;
-    font-size: 2.5em;
-}
+
 
 .container {
     display: flex;
